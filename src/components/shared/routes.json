@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_routes",
+  "info": {
+    "displayName": "Routes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "path": {
+      "type": "string"
+    },
+    "element": {
+      "type": "string"
+    },
+    "errorElement": {
+      "type": "string"
+    },
+    "caseSensitive": {
+      "type": "boolean"
+    }
+  }
+}

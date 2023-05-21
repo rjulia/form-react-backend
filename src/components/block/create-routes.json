@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_block_create_routes",
+  "info": {
+    "displayName": "CreateRoutes"
+  },
+  "options": {},
+  "attributes": {
+    "Routes": {
+      "displayName": "Routes",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.routes"
+    }
+  }
+}
