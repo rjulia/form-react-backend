@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_form_elements_input_fields",
+  "info": {
+    "displayName": "inputField",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "formType": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "options": {
+      "displayName": "options",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.options"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "email",
+        "drop",
+        "textarea"
+      ]
+    },
+    "className": {
+      "displayName": "className",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.class-name"
+    },
+    "validation": {
+      "displayName": "validation",
+      "type": "component",
+      "repeatable": false,
+      "component": "form-elements.validation"
+    }
+  }
+}

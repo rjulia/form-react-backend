@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "homes",
+  "collectionName": "forms_pages",
   "info": {
-    "singularName": "home",
-    "pluralName": "homes",
-    "displayName": "home",
-    "description": ""
+    "singularName": "forms-page",
+    "pluralName": "forms-pages",
+    "displayName": "formsPage"
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +14,6 @@
     "blocks": {
       "type": "dynamiczone",
       "components": [
-        "block.content",
         "block.hero-image"
       ]
     }

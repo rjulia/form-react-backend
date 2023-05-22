@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_class_names",
+  "info": {
+    "displayName": "className"
+  },
+  "options": {},
+  "attributes": {
+    "container": {
+      "type": "text"
+    },
+    "containerInput": {
+      "type": "text"
+    },
+    "label": {
+      "type": "text"
+    },
+    "input": {
+      "type": "text"
+    },
+    "error": {
+      "type": "text"
+    }
+  }
+}
