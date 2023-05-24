@@ -9,9 +9,6 @@
     "label": {
       "type": "string"
     },
-    "formType": {
-      "type": "string"
-    },
     "name": {
       "type": "string"
     },
@@ -36,8 +33,17 @@
       "repeatable": false,
       "component": "shared.class-name"
     },
+    "formType": {
+      "type": "enumeration",
+      "enum": [
+        "title",
+        "field",
+        "textarea",
+        "select",
+        "drop"
+      ]
+    },
     "validation": {
-      "displayName": "validation",
       "type": "component",
       "repeatable": false,
       "component": "form-elements.validation"
