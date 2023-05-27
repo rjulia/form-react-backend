@@ -24,7 +24,10 @@
         "text",
         "email",
         "drop",
-        "textarea"
+        "textarea",
+        "password",
+        "submit",
+        "checkbox"
       ]
     },
     "className": {
@@ -40,7 +43,8 @@
         "field",
         "textarea",
         "select",
-        "drop"
+        "drop",
+        "button"
       ]
     },
     "validation": {

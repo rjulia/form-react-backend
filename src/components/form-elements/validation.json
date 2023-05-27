@@ -1,7 +1,8 @@
 {
   "collectionName": "components_form_elements_validations",
   "info": {
-    "displayName": "validation"
+    "displayName": "validation",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -28,6 +29,18 @@
     },
     "min": {
       "type": "integer"
+    },
+    "regex": {
+      "type": "text"
+    },
+    "message": {
+      "type": "text"
+    },
+    "matches": {
+      "type": "boolean"
+    },
+    "oneOf": {
+      "type": "text"
     }
   }
 }

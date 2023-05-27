@@ -11,6 +11,7 @@
     "build:digitalocean": "yarn install --production=false && yarn run build && rm -rf node_modules && yarn install --production --frozen-lockfile"
   },
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
     "@strapi/plugin-i18n": "4.10.5",
     "@strapi/plugin-users-permissions": "4.10.5",
     "@strapi/strapi": "4.10.5",
